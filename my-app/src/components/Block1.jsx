@@ -14,7 +14,6 @@ const Block1 = () => {
         </ul>
     }
     const DisplayList = (props) =>{
-        console.log(props)
         if(props.props.cod == 400){
             return <h2 className='info'>Не найдено</h2>
         }else if(props.props.cod == 200){
